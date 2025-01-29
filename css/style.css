@@ -173,7 +173,7 @@ h3#slider-heading {
     z-index: 999;
 }
 .fixed img.logos {
-    width: 145px !important;
+    width: 125px !important;
     transition: 0.3s;
 }
 
