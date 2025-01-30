@@ -1,10 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 body {
     font-family: "Inter", serif;
     font-optical-sizing: auto;   
     padding: 0;
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Inter", serif;
+    font-family: "Playfair Display", serif;
   }
 
 html {
@@ -1202,13 +1205,13 @@ img#downoad-pdf {
 footer .social-links a {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     width: 35px;
     height: 35px;
     border-radius: 50%;
     border: 1px solid color-mix(in srgb, #fff, transparent 50%);
     font-size: 16px;
-    color: color-mix(in srgb, #000, transparent 20%);
+    color: color-mix(in srgb, #ffffff, transparent 20%);
     margin-right: 10px;
     transition: 0.3s;
 }
