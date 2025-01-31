@@ -335,8 +335,7 @@ nav.navbar.bg-light {
     background-color: #ffffff;
 }
 img.logos {
-    width: 145px;
-    max-width: 10;
+    width: 70%;   
 }
 .me-auto {
     margin-right: 0 !important; 
@@ -568,7 +567,7 @@ img.img-thumbnail.wow.zoomInUp.animated.animated.animated{
 
 .footer-form .heading-look {
     font-size: 21px;
-    background: #ed3237;
+    background: #991e5a;
     color: #fff;
     text-align: center;
     display: block;
@@ -584,10 +583,16 @@ div#mini_contact_form {
     margin-bottom: 10px;
 }
 input.btn.btn-theme.font-13 {
-    background: #ed3237;
+    background: #991e5a !important;
     color: #fff;
     padding: 7px 19px;
 }
+input.btn.btn-info.text-center {
+    background-color: #971d58;
+    color: #fff;
+    border: none;
+}
+
 div#mini_contact_form {
    
     display: none;
@@ -869,11 +874,7 @@ footer {
         border-radius: 10px;
         margin: 0 10px !important;
     }
-    img.img-fluid.footer-logo.logos {
-        width: 170px !important;
-        padding-bottom: 10px !important;
-        margin-bottom: 10px !important;
-    }
+    
     .quick-link.col-md-3 {
         padding: 10px;
     }
@@ -1094,6 +1095,7 @@ div#pcd {
         display: none;
     }
     
+    
    
     .container.text-center.slide {
         padding: 10px 0 60px 0;
@@ -1226,8 +1228,7 @@ img.second-img {
         display: -ms-flexbox;
         display: flex;
         width: 100%;
-        -ms-flex-wrap: wrap;
-        /* flex-wrap: wrap; */
+        -ms-flex-wrap: wrap;      
         margin-right: 0;
         margin-left: 0;
         justify-content: center;
@@ -1492,4 +1493,66 @@ div#third-party {
     height: 100%;
     opacity: 0;
     width: 100%;
+}
+.bubble {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 99;
+}
+.bubble a.call {
+    background: #b5255e;
+}
+.bubble a {
+    border-radius: 5px 0 0 5px;
+    margin-top: 8px;
+    box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 46%);
+    overflow: hidden;
+    color: #fff;
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    width: 55px;
+    transition: all 0.5s linear;
+    height: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.bubble span {
+    display: none;
+    transition: all 0.5s linear;
+    margin-bottom: 0;
+    margin-right: 35px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.bubble a.whats {
+    background: #25D366;
+}
+.bubble a:hover {
+    width: 100%;
+}
+.bubble a:hover span {
+    display: block;
+}
+span.plus {
+    color: #ffff;
+    position: relative;
+    right: -44px;
+    top: -39px;
+    /* bottom: 0px; */
+    font-size: 32px;
+}
+.download-pdf {
+    position: fixed;
+    bottom: 200px;
+    z-index: 999;
 }
