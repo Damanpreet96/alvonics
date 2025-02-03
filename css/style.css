@@ -1556,3 +1556,7 @@ span.plus {
     bottom: 200px;
     z-index: 999;
 }
+.popup-btn {
+    background-color: #4c0f2d;
+    border: none;
+}
