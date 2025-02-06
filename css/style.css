@@ -1331,8 +1331,8 @@ footer .social-links a:hover {
 
   
   .doctors .product-img .member-info {
-    padding: 25px 15px;
-  }
+    padding: 25px 15px 5px 15px;
+}
   
   .doctors .product-img .member-info h4 {
     font-weight: 500;
@@ -1569,8 +1569,15 @@ span.plus {
     position: fixed;
     bottom: 200px;
     z-index: 999;
+    left: 0;
 }
 .popup-btn {
     background-color: #4c0f2d;
     border: none;
+}
+.useful-link.text-center {
+    padding-bottom: 15px;
+}
+.useful-link a {
+    color: #991e5a;
 }
