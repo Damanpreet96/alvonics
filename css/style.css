@@ -41,7 +41,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 1;
     font-weight: 700;
     color: #961d58;
@@ -50,6 +50,9 @@ h2 {
     font-size: 35px !important;    
     font-weight: 700 !important;
     color: #961d58 !important;
+}
+#range-heading {
+    padding-bottom: 25px;
 }
 /* header */
 
@@ -178,6 +181,15 @@ h3#slider-heading {
 .fixed img.logos {
     width: 125px !important;
     transition: 0.3s;
+}
+header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .top-header {
@@ -371,23 +383,6 @@ img#about-img {
     padding: 40px 0px;
 }
 
-.about-section {
-    padding-bottom: 10px;
-    width: 100%;
-    float: left;
-    font-size: 32px;
-    color: #000000;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 40px;
-  
-    font-family: "Oswald", sans-serif;
-    position: relative;
-}
-
-
-
-
 
 div#third-party .about-section {
     margin-bottom: 0px;
@@ -562,7 +557,7 @@ img.img-thumbnail.wow.zoomInUp.animated.animated.animated{
     right: 0px;
     bottom: 0px;
     z-index: 1000;
-    width: 286px;
+    width: 250px;
 }
 
 .footer-form .heading-look {
@@ -1366,11 +1361,12 @@ footer .social-links a:hover {
 }
 
 .counter-box p {
-    margin: 5px 0 0;
+    margin: 0px 0 0;
     padding: 0;
     color: #ffffff;
     font-size: 18px;
-    font-weight: 500
+    font-weight: 500;
+    line-height: 0px;
 }
 
 .counter-box i {
@@ -1580,4 +1576,31 @@ span.plus {
 }
 .useful-link a {
     color: #991e5a;
+}
+.footer-bg .py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 0rem!important;
+}
+button#product-btn {
+    background: #991e5a;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    margin: 8px 0px;
+}
+.col-md-12.col-sm-6.text-center.galler {
+    padding-top: 50px;
+}
+button#gallery-btn {
+    background: #991e5a;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;   
+}
+button#gallery-btn {
+    background: #991e5a;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
 }
