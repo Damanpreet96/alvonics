@@ -29,6 +29,9 @@ a,
 a:hover {
     text-decoration: none;
 }
+a {
+    color: #000;
+}
 
 .fa-solid, .fas {
     font-weight: 900;
@@ -1366,7 +1369,8 @@ footer .social-links a:hover {
     color: #ffffff;
     font-size: 18px;
     font-weight: 500;
-    line-height: 0px;
+    line-height: 25px;
+    /* display: inline; */
 }
 
 .counter-box i {
