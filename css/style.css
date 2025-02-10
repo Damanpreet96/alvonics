@@ -1610,9 +1610,17 @@ button#gallery-btn {
     border-radius: 5px;
     padding: 8px 20px;
 }
-@media (max-width:1300px) and (min-width:900px) {
+@media (max-width:1400px) and (min-width:900px) {
     li.nav-item {
         margin: 0 4px !important;
+    }
+    div#last-counter {
+        display: block;
+        background-color: #961d58;
+        padding: 30px 20px 30px 20px;
+    }
+    div#last-counter p {
+        margin-top: -7px;
     }
     
 }
